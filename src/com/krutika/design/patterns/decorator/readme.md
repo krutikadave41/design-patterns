@@ -1,0 +1,7 @@
+- A Decorator Pattern says that just "attach a flexible additional responsibilities to an object dynamically".
+- Decorator pattern helps to avoid "Class Explosion"
+- It uses composition to add dynamic behavior at runtime. Thus, helping us to follow "Open-Closed Principle"
+- This package contains the classic decorator design pattern example of how different types of beverages can be decorated runtime without subclassing.
+- Beverage is an abstract class, it has concrete subtypes: Latte, Espresso, etc
+- Decorator is an abstract class which has "is-a" & "has-a" relationship with Beverage. 
+- Concrete Decorators are then created to caculate the cost for each type of decoration.
